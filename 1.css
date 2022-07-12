@@ -1,7 +1,38 @@
 h2{
     margin-left: 200px;
+    font-family: 'Segoe UI'
 
 }
+
+div.content{
+    margin-left: 250px;
+    font-family: 'Segoe UI'
+}
+
+h2.con1{
+    margin-left: 20px;
+    font-family: 'Segoe UI'
+
+}
+p{
+    font-family: 'Segoe UI'
+}
+div.con1{
+    font-size: 13px;
+
+    font-family: 'Segoe UI';
+    color: rgb(78, 78, 78);;
+
+}
+
+
 hr{
-    width: 300px;
+    margin-left: -80px;
+    width: 700px;
+    color: rgb(175, 177, 178);
+}
+img{
+    margin: auto;
+
+    width: 400px;
 }
