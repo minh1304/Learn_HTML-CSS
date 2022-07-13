@@ -13,11 +13,13 @@ div.content{
     font-size: 20px;
 }
 
-h2.con1{
+div.content h2{
     margin-left: 20px;
     font-family: 'Segoe UI'
 
 }
+
+
 p{
     font-family: 'Segoe UI'
 }
@@ -31,12 +33,7 @@ div.con1{
 
 }
 
-/* 
-hr{
-    margin-left: -80px;
-    width: 700px;
-    color: rgb(175, 177, 178);
-} */
+
 img.con1{
 
 
