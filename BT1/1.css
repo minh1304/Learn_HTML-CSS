@@ -7,6 +7,7 @@ h2{
 }
 
 div.content{
+    margin: auto;
     margin-left: 400px;
     font-family: 'Segoe UI';
     width: 725px;
@@ -55,7 +56,7 @@ img.anhghep2{
     width: 357px;
 }
 div.duoianh{
-    margin-top: -15px;
+    margin-top: -17px;
     height: 30px;
     font-size: 15px;
 
