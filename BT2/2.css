@@ -38,20 +38,25 @@
     border-color: white;
     background-color: white;
     color: rgb(145, 142, 142);
+    border-style: none;
 
 }
 
 .fa-user{
 
-    font-size: 30px;
+    font-size: 50px;
+    margin-right: 10px;
     background-color: white;
     border-color: white;
+    border-style: none;
 }
 .fa-mobile
 {
-    font-size: 30px;
+    margin-left: 10px;
+    font-size: 50px;
     background-color: white;
     border-color: white;
+    border-style: none;
 }
 .botheader{
     display: flex;
@@ -60,7 +65,7 @@
     background-color: #17a2b8;
 }
 .trend_news{
-    margin-top: 10px;
+    margin-top: 0px;
 
     margin-left:300px ;
     margin-right: 300px;
@@ -71,13 +76,61 @@
 
 }
 .trend_left{
+    margin-top: 20px;
     width: 70%;
     background-color: white;
 
 }
+.trend_left .main img{
+    width: 100%;
+}
 .trend_right{
+    margin-top: 20px;
     margin-left: 10px;
     width: 28%;
-    background-color: black;
+    background-color: white;
+    border-bottom: 1px;
 
+}
+.block{
+
+    display: flex;
+    margin-bottom: 20px;
+    background-color: white;
+
+    
+}
+.right_l {
+    margin-top: 0px;
+
+    width: 25%;
+    border-bottom: 2px
+}
+.right_l img{
+    width: 100%;
+    height: 80px;
+}
+.right_r{
+    margin-top: 0px;
+    margin-left: 10px;
+    width: 65%;
+    font-size: 17px;
+    background-color: white;
+
+    
+}
+.right_r .r_top{
+    background-color: white;
+
+}
+.right_r img{
+    width: 20%;
+    background-color: white;
+}
+.right_r .r_bot{
+    background-color: white;
+
+}
+a{
+    color: black;
 }
