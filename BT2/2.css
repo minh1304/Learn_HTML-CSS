@@ -1,8 +1,8 @@
 *{
-    margin: 0;
+    margin: auto;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    
+    background-color: rgb(155, 156, 156);
 }
 .bm_Q{
     display: flex;
@@ -13,6 +13,7 @@
 .logo{
     margin-left:150px ;
     width: 30%;
+    background-color: rgb(255, 255, 255);
 
 }
 .logo img{
@@ -22,12 +23,14 @@
     margin-top: 10px;
     width: 50%;
     height: 40px;
+    background-color: rgb(255, 255, 255);
 
 
 }
 .icon{
     width: 20%;
     margin-top: 20px;
+    background-color: rgb(255, 255, 255);
 }
 .setting{
     margin-left: -25px;
@@ -53,6 +56,28 @@
 .botheader{
     display: flex;
     width: 1900px;
-    height: 90px;
-    background-color: rgb(62, 72, 157);
+    height: 45px;
+    background-color: #17a2b8;
+}
+.trend_news{
+    margin-top: 10px;
+
+    margin-left:300px ;
+    margin-right: 300px;
+    display: flex;
+    height: 995px;
+    background-color: white;
+
+
+}
+.trend_left{
+    width: 70%;
+    background-color: white;
+
+}
+.trend_right{
+    margin-left: 10px;
+    width: 28%;
+    background-color: black;
+
 }
