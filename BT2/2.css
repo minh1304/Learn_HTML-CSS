@@ -1,8 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    
+}
 .bm_Q{
     display: flex;
     width: 1900px;
     height: 90px;
-    background-color: rgb(155, 144, 144);
+    background-color: rgb(255, 255, 255);
 }
 .logo{
     margin-left:150px ;
@@ -13,15 +19,40 @@
     width: 200px;
 }
 .form{
-    margin-top: 15px;
+    margin-top: 10px;
     width: 50%;
+    height: 40px;
 
 
 }
 .icon{
     width: 20%;
+    margin-top: 20px;
 }
 .setting{
+    margin-left: -25px;
+    font-size: 18px;
+    border-color: white;
     background-color: white;
+    color: rgb(145, 142, 142);
 
+}
+
+.fa-user{
+
+    font-size: 30px;
+    background-color: white;
+    border-color: white;
+}
+.fa-mobile
+{
+    font-size: 30px;
+    background-color: white;
+    border-color: white;
+}
+.botheader{
+    display: flex;
+    width: 1900px;
+    height: 90px;
+    background-color: rgb(62, 72, 157);
 }
