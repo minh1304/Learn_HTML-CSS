@@ -1,3 +1,27 @@
 .bm_Q{
     display: flex;
+    width: 1900px;
+    height: 90px;
+    background-color: rgb(155, 144, 144);
+}
+.logo{
+    margin-left:150px ;
+    width: 30%;
+
+}
+.logo img{
+    width: 200px;
+}
+.form{
+    margin-top: 15px;
+    width: 50%;
+
+
+}
+.icon{
+    width: 20%;
+}
+.setting{
+    background-color: white;
+
 }
