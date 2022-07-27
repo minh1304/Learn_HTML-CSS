@@ -82,12 +82,10 @@
     color:  white;
     text-decoration: none;
     text-transform: uppercase;
-    padding-top: 11px;
     display: block;
     background-color: #17a2b8;
-    padding-left: 6px;
-    padding-right: 6px;
-    padding-bottom: 10px; 
+    padding: 10px;
+    transition: 0.4s;
 }
 .menungang a:hover{
     background-color: rgb(19,122,138);
