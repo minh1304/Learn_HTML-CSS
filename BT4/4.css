@@ -1,0 +1,31 @@
+.dad{
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
+.dad .con1{
+    width: 100px;
+    height: 100px;
+
+}
+.dad .con2{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    opacity: 0.4;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+
+}
+.dad .con3{
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+
+}
