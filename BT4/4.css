@@ -33,6 +33,7 @@
     top: 106px;
     left: 110px;
     transition: 00.4s;
+    transform: scale(0);
 
 
 
@@ -40,6 +41,7 @@
 .dad:hover .con3{
 
     opacity: 1;
+    transform: scale(1);
 
 
 
