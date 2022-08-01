@@ -1,0 +1,42 @@
+.product{
+    font-family: Function Pro;
+    font-size: 13px;
+    width: 360px;
+    height: 460px;
+    position: relative;
+
+}
+.product .layer1 {
+    width: 360px;
+    height: 460px;
+}
+.product .icon{
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    transition: 0.4s;
+    opacity: 0;
+}
+.product .color{
+    position: absolute;
+    background-color: #00b19e;
+    left: 15px;
+    right: 15px;
+    top: 15px;
+    bottom: 15px;
+    width: 320px;
+    height: 420px;
+    opacity: 0;
+    transition: 0.4s;
+}
+.product .text1 {}
+.product .text2 {}
+
+.product:hover .layer1 {
+}
+.product:hover .icon{ opacity: 1;}
+.product:hover .color{opacity: 1;}
+.product:hover .text1 {}
+.product :hover.text2 {}
