@@ -1,31 +1,46 @@
 .dad{
-    width: 100px;
-    height: 100px;
+    width: 300px;
+    height: 300px;
     position: relative;
 }
 
 .dad .con1{
-    width: 100px;
-    height: 100px;
+    width: 300px;
+    height: 300px;
 
 }
 .dad .con2{
-    width: 100px;
-    height: 100px;
+    width: 300px;
+    height: 300px;
     background-color: black;
-    opacity: 0.4;
+    opacity: 0;
     position: absolute;
+    transition: 0.4s;
     top: 0;
     left: 0;
 
+
+}
+.dad:hover .con2{
+    opacity: 0.4;
 
 }
 .dad .con3{
     color: white;
-    font-size: 25px;
+    opacity: 0;
+    font-size: 75px;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 106px;
+    left: 110px;
+    transition: 00.4s;
+
+
+
+}
+.dad:hover .con3{
+
+    opacity: 1;
+
 
 
 }
