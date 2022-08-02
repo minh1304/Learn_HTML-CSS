@@ -15,6 +15,6 @@ a.chu:after  {
     transition: 0.4s;
 
 }
-a.chu:hover::after {
+a.chu:hover:after {
     width: 100%;
 }
