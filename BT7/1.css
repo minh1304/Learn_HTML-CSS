@@ -8,13 +8,30 @@
     height: 600px;
     background-size: cover;
 }
-.banner_top ._3cot{}
-.banner_top ._3cot ._1cot{}
+.banner_top ._3cot{
+    display: flex;
+}
+.banner_top ._3cot ._1cot{
+    width: 33.33%;
+}
 .banner_top ._3cot ._1cot.cottrai{ }
 .banner_top ._3cot ._1cot.cottrai a{ }
 .banner_top ._3cot ._1cot.cottrai a:hover{ }
 
-.banner_top ._3cot ._1cot.cotgiua{ }
-.banner_top ._3cot ._1cot.cotgiua img{}
-.banner_top ._3cot ._1cot.cotphai { }
+.banner_top ._3cot ._1cot.cotgiua{ 
+    text-align: center;
+
+
+}
+.banner_top ._3cot ._1cot.cotgiua img{
+
+}
+.banner_top ._3cot ._1cot.cotphai {text-align: right; }
+.banner_top ._3cot ._1cot.cotphai a{
+    color: white;
+    font-size: 14px;
+    padding: 15px 5px;
+    display: inline-block;
+}
+
 
