@@ -7,9 +7,19 @@
     background-image:url(image/bg.jpg);
     height: 600px;
     background-size: cover;
+    position: relative;
+}
+.banner_top .black{
+    background-image: -webkit-linear-gradient(left, #000000cc 0%, #aaaaaa14 50%, #000000a3 100%);
+    position:absolute;
+    width: 100%;
+    height: 100%;
 }
 .banner_top ._3cot{
+    position:absolute;
     display: flex;
+    width: 100%;
+
 }
 .banner_top ._3cot ._1cot{
     width: 33.33%;
